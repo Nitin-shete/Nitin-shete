@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../CSS/theme_style.css">
+
+    <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+
+
+<body>
+
+    <div class="section_wrapper">
+
+        <div class="section_main_header">
+
+            <div class="main_section_right">
+
+                <a href="" class="bar_side_click" id="bar_side_click">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+
+                        class="feather feather-align-left" id="sidebar-toggle">
+
+                        <line x1="17" y1="10" x2="3" y2="10"></line>
+
+                        <line x1="21" y1="6" x2="3" y2="6"></line>
+
+                        <line x1="21" y1="14" x2="3" y2="14"></line>
+
+                        <line x1="17" y1="18" x2="3" y2="18"></line>
+
+                    </svg>
+
+                </a>
+
+                <div class="shoping-link">
+
+                    <a href="" class="shoping-link_btn">FAQs</a>
+
+                    <a href="" class="shoping-link_btn">Contact Us</a>
+
+                    <a class=" shoping-link_btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+
+                        data-bs-toggle="dropdown" aria-expanded="false">
+
+                        <i class="fas fa-user user_myaccount"></i> My Account <i
+
+                            class="fas fa-chevron-down chevron_arrow_down"></i>
+
+                    </a>
+
+
+
+                    <ul class="dropdown-menu menu_account_drpdwn" aria-labelledby="dropdownMenuLink">
+
+                        <li>
+
+                            <a class="dropdown-item item_drpdwn" href="#">
+
+                                <i class="fas fa-user-circle my_account_icon"></i>
+
+                                <span class="my_account_span">Profile</span></a></li>
+
+                        <li>
+
+                            <a class="dropdown-item item_drpdwn" href="#">
+
+                                <i class="fas fa-box box_order my_account_icon"></i>
+
+                                <span class="my_account_span">Order</span>
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a class="dropdown-item item_drpdwn" href="https://provabdevelopment.com/shopping/auth/logout">
+
+                                <i  class="fas fa-sign-out-alt sign_out my_account_icon"></i>
+
+                                <span class="my_account_span">Log Out</span>
+
+                            </a>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="section_body-wrapper">
+
+            <div class="section_sidebar">
+
+                <div class="logo_sidebar">
+
+                    <img src="../Images/shopingbaglogo.png" alt="">
+
+                    <h1 class="logo_h1">Shopping</h1>
+
+                </div>
+
+                <!-- <div class="account_details_sidebar">
+
+                      <img src="../Images/obi-madugba-opY4bkbdM5s-unsplash.jpg" alt="" class="img_account">
+
+               </img>
+
+            </div> -->
+
+                <div class="section_scrollbar custom_scrollbar">
+
+                    <div class="sections_links">
+
+                        <ul class="sections_links_ul">
+
+                            <li class="sections_links_li">
+
+                                <a href="Dashboard.html" class="sections_links_a">
+
+                                    <img src="../Images/home.png" alt="" class="sidebar_icon_show">
+
+                                    <span> Dashbord</span>
+
+                                </a>
+
+                            </li>
+
+                            <li class="sections_links_li">
+
+                                <a href="" class="sections_links_a">
+
+                                    <img src="../Images/cube.png" alt="" class="sidebar_icon_show">
+
+                                    <span>Products</span>
+
+                                    <span><i class="fas fa-angle-down arrow_down"></i></span>
+
+                                </a>
+
+                                <ul class="hover_products">
+                                    <li class="show_products_hover"><a href="Category.html" class="click_show_page">
+                                             Category
+                                        </a>
+                                    </li>
+                                    <li class="show_products_hover"><a href="Subcategory.html" class="click_show_page">
+                                            Sub Category
+                                        </a>
+                                    </li>
+
+                                   <li class="show_products_hover"><a href="product.html" class="click_show_page">
+                                             Product List
+                                        </a>
+                                    </li>
+                                    <li class="show_products_hover"><a href="addproductsection.html" class="click_show_page">
+                                            Add Product
+                                        </a>
+                                    </li>
+
+                                    <li class="show_products_hover"><a href="Shareproduct.html" class="click_show_page">
+
+                                            Share Product
+
+                                        </a>
+
+                                    </li>
+
+                                </ul>
+
+                            </li>
+
+                            <li class="sections_links_li">
+
+                                <a href="" class="sections_links_a">
+
+                                    <img src="../Images/collection.png" alt="" class="sidebar_icon_show">
+
+                                    <span>Collections</span>
+
+                                    <span><i class="fas fa-angle-down arrow_down"></i></span>
+
+                                </a>
+
+                                <ul class="hover_products">
+
+                                    <li class="show_products_hover"><a href="Collections.html" class="click_show_page">
+
+                                        Collections List
+
+                                    </a>
+
+                                   </li>
+
+                                    <li class="show_products_hover"><a href="product.html" class="click_show_page">
+                                       Add Collections
+
+                                        </a>
+
+                                    </li>
+
+                                    <li class="show_products_hover"><a href="" class="click_show_page">
+
+                                            Share Collections
+
+                                        </a>
+
+                                    </li>
+
+                                </ul>
+
+                            </li>
+
+                            <li class="sections_links_li">
+
+                                <a href="" class="sections_links_a">
+
+                                    <img src="../Images/shareexchange.png" alt="" class="sidebar_icon_show">
+
+                                    <span>Sharing & Exchange</span>
+
+                                    <span><i class="fas fa-angle-down arrow_down"></i></span>
+
+                                </a>
+
+                                <ul class="hover_products">
+
+                                    <li class="show_products_hover"><a href="Sharebyme.html" class="click_show_page">
+
+                                            Shared by me
+
+                                        </a>
+
+                                    </li>
+
+                                    <li class="show_products_hover"><a href="" class="click_show_page">
+
+                                            Share to me
+
+                                        </a>
+
+                                    </li>
+
+                                    <li class="show_products_hover"><a href="" class="click_show_page">
+
+                                            Pushed Products
+
+                                        </a>
+
+                                    </li>
+
+                                    <li class="show_products_hover"><a href="" class="click_show_page">
+
+                                            Pulled Products
+
+                                        </a>
+
+                                    </li>
+
+                                </ul>
+
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="section_content hidden">
+
+                <div class="section_content_body" id="section_content_body">
+
+                    <ul class="responsive-table table_share">
+
+                        <li class="table-header">
+
+                          <div class="col col-1">S.No</div>
+
+                          <div class="col col-2">Catalouge Details</div>
+
+                          <div class="col col-3">No.Products</div>
+
+                          <div class="col col-4">Buyer Name</div>
+
+                        </li>
+
+                        <li class="table-row">
+
+                          <div class="col col-1" data-label="Job Id"><span class="share_prdct_dtl">0015</span></div>
+
+                          <div class="col col-2" data-label="Customer Name"><span class="share_prdct_dtl">Saree</span></div>
+
+                          <div class="col col-3" data-label="Amount"><span class="share_prdct_dtl">10</span></div>
+
+                          <div class="col col-4" data-label="Payment Status">
+                            <span class="share_prdct_dtl">Pankaj</span>
+                          </div>
+
+                        </li>
+
+
+
+                      </ul>
+                </div>  
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="../bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+
+    <script src="../JS/sidebar.js"></script>
+</body>
+
+
+
+</html>
